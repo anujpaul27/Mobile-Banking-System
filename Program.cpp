@@ -14,5 +14,11 @@ int main ()
         cin>>v[i];
     }
 
+    // output input vector 
+    for (int i=0; i<n; i++)
+    {
+        cout<<v[i]<<" ";
+    }
+
     return 0;
 }
